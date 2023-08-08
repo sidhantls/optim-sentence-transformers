@@ -1,0 +1,2 @@
+optimum[onnxruntime]=>1.10.0
+sentence-transformers=>1.0.0
