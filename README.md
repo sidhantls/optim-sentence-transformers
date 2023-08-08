@@ -1,6 +1,6 @@
 # Optimized Sentence Transformers 
 
-This package simplifies [SentenceTransformer](https://www.sbert.net/) model optimization using [ONNX](https://onnxruntime.ai/)/[optimum](https://huggingface.co/docs/optimum/) and maintains the easy inference with SentenceTransformer's `model.encode`. Model optimization can lead up to 40% lower inference latency on CPU. 
+This package simplifies [SentenceTransformer](https://www.sbert.net/) model optimization using [onnx](https://onnxruntime.ai/)/[optimum](https://huggingface.co/docs/optimum/) and maintains the easy inference with SentenceTransformer's `model.encode`. Model optimization can lead up to 40% lower inference latency on CPU. 
 
 <p align="center">
   <img src="https://github.com/sidhantls/optimized-st-ckpt/blob/main/imgs/workflow.PNG" width="700" height="140"/>
