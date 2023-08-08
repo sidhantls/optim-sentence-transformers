@@ -12,7 +12,9 @@ If your production code uses SentenceTransformer's `model.encode`, this package 
 Requires Python 3.8+ 
 
 ### Install with pip
-`pip install optim_sentence_transformers`
+```
+pip install optim_sentence_transformers
+```
 
 ### Install from source
 ```
@@ -62,7 +64,7 @@ In some cases model.encode in sentence-transformers will always return normalize
 Contributions are welcome
 
 ## References 
-* [Hugginface optimum](https://huggingface.co/docs/optimum/) 
+* [Huggingface Optimum](https://huggingface.co/docs/optimum/) 
 * [Sentence Transformers](https://github.com/UKPLab/sentence-transformers) 
 * [onnxruntime](onnxruntime.ai)
 * [philschmid's blog post](https://www.philschmid.de/optimize-sentence-transformers)
