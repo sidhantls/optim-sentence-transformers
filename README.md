@@ -21,7 +21,7 @@ cd optim-sentence-transformers;
 pip install -e .;
 ```
 
-## Stats
+## Performance
 
 <p align="center">
   <img src="https://github.com/sidhantls/optimized-st-ckpt/blob/main/imgs/latency_percent_difference.png" width="700" height="400" />
@@ -29,7 +29,7 @@ pip install -e .;
 
 
 ## Usage 
-Supported Optimizations: "onnx" and "graph_optim" ([graph optimization](https://huggingface.co/docs/optimum/onnxruntime/usage_guides/optimization))
+Supported optimizations: "onnx" and "graph_optim" ([graph optimization](https://huggingface.co/docs/optimum/onnxruntime/usage_guides/optimization))
 
 ```
 from sentence_transformers import SentenceTransformer
@@ -59,10 +59,10 @@ optim_model.encode(['text'], normalize_embeddings=True)
 In some cases model.encode in sentence-transformers will always return normalized vectors due to normalization layer during init. Here, if vectors are required to be normalized, set normalize_embeddings=True. 
 
 ## Contributions 
-Contributions are welcome. New feature contributions also are welcome and idea is to keep it easy to use and support most use-cases with few number of nobs.
+Contributions are welcome
 
 ## References 
 * [Hugginface optimum](https://huggingface.co/docs/optimum/) 
 * [Sentence Transformers](https://github.com/UKPLab/sentence-transformers) 
 * [onnxruntime](onnxruntime.ai)
-* [philschmid's blog post](https://www.philschmid.de/optimize-sentence-transformers) about Onnx and model quantization  
+* [philschmid's blog post](https://www.philschmid.de/optimize-sentence-transformers)
